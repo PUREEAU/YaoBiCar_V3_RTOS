@@ -1,0 +1,15 @@
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+yaobicar_v3_rtos\event_groups.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+yaobicar_v3_rtos\event_groups.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+yaobicar_v3_rtos\event_groups.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+yaobicar_v3_rtos\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+yaobicar_v3_rtos\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
