@@ -31,6 +31,7 @@ yaobicar_v3_rtos\ring_buffer.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha
 yaobicar_v3_rtos\ring_buffer.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 yaobicar_v3_rtos\ring_buffer.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 yaobicar_v3_rtos\ring_buffer.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+yaobicar_v3_rtos\ring_buffer.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 yaobicar_v3_rtos\ring_buffer.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 yaobicar_v3_rtos\ring_buffer.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\string.h
 yaobicar_v3_rtos\ring_buffer.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

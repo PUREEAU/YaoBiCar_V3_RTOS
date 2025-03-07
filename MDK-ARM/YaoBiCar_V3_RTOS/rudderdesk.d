@@ -35,6 +35,10 @@ yaobicar_v3_rtos\rudderdesk.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal
 yaobicar_v3_rtos\rudderdesk.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 yaobicar_v3_rtos\rudderdesk.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 yaobicar_v3_rtos\rudderdesk.o: ../Core/Inc/usart.h
+yaobicar_v3_rtos\rudderdesk.o: ../Fashion_Star/ring_buffer.h
+yaobicar_v3_rtos\rudderdesk.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+yaobicar_v3_rtos\rudderdesk.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+yaobicar_v3_rtos\rudderdesk.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 yaobicar_v3_rtos\rudderdesk.o: ..\HandWare\RudderDesk.h
 yaobicar_v3_rtos\rudderdesk.o: ..\HandWare\YBCar_PID.h
 yaobicar_v3_rtos\rudderdesk.o: ..\HandWare\YBCar_CAN.h

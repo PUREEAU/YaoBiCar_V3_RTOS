@@ -6,7 +6,7 @@
 
 #include "fashion_star_uart_servo.h"
 #include "math.h"
-#include "tick.h"
+
 // 数据帧转换为字节数组
 void FSUS_Package2RingBuffer(PackageTypeDef *pkg,  RingBufferTypeDef *ringBuf){
     uint8_t checksum; // 校验和

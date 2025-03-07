@@ -138,7 +138,8 @@ void Free_Task(void *argument)
         task_count=uxTaskGetNumberOfTasks();
         printf("%d\r\n",task_count);
       HAL_UART_Transmit_IT(&huart7,(uint8_t *)"Free\r\n",6);
-    
+      
+      
         osDelay(100);
   }
   /* USER CODE END Free_Task */
@@ -155,6 +156,7 @@ void Car_Init_Task(void *argument)
   {
         HAL_TIM_Base_Start_IT(&htim1);
         HAL_TIM_Base_Start_IT(&htim3);
+        HAL_TIM_Base_Start_IT(&htim12);
         Motor_Init();
         RudderDesk_ResetOn();
         

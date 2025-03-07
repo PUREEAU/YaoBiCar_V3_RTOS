@@ -1,10 +1,10 @@
 #include "JoyStick.h"
 #include "Variable.h"
-
+#include "fashion_star_uart_servo.h"
 uint16_t Demo_Flag;
 JoyStickData_TypeDef JoyStick_Data ;
 
-
+void FashionStar_Work(void);
 
 void Demo_Work(void)
 {
@@ -78,12 +78,13 @@ void PS2_DataKey(void)
     JoyStick_Data.Key_Rocker_Left  = JoyStick_PackageData[17];
     JoyStick_Data.Key_Rocker_Right = JoyStick_PackageData[18];
     
-    JoyStick_Data.Rocker_RX = JoyStick_PackageData[4];
-    JoyStick_Data.Rocker_RY = JoyStick_PackageData[3];
-    JoyStick_Data.Rocker_LX = JoyStick_PackageData[2];
-    JoyStick_Data.Rocker_LY = JoyStick_PackageData[1];
+    JoyStick_Data.Rocker_RX = JoyStick_PackageData[2];
+    JoyStick_Data.Rocker_RY = JoyStick_PackageData[1];
+    JoyStick_Data.Rocker_LX = JoyStick_PackageData[4];
+    JoyStick_Data.Rocker_LY = JoyStick_PackageData[3];
     
 }
+
 
 /*
  *
@@ -226,6 +227,19 @@ void PS2_Start(void)
     }
     
     Demo_Work();
+    FashionStar_Work();
+}
+
+void FashionStar_Work(void)
+{
+    if(JoyStick_Data.Rocker_RX>110)JoyStick_Data.Rocker_RX=110;
+    if(JoyStick_Data.Rocker_RX<-110)JoyStick_Data.Rocker_RX=-110;
+        FSUS_SetServoAngle(servoUsart,0,JoyStick_Data.Rocker_RX,200,100,0);
+    if(JoyStick_Data.Rocker_RY>110)JoyStick_Data.Rocker_RY=110;
+    if(JoyStick_Data.Rocker_RY<-110)JoyStick_Data.Rocker_RY=-110;
+        FSUS_SetServoAngle(servoUsart,1,JoyStick_Data.Rocker_RY/3,200,100,0);
+    JoyStick_Data.Rocker_RX  = 0;
+    JoyStick_Data.Rocker_RY  = 0;
 }
 
 void PS2_Stop(void)

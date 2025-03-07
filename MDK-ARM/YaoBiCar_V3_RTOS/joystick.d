@@ -36,7 +36,14 @@ yaobicar_v3_rtos\joystick.o: ..\HandWare\Variable.h
 yaobicar_v3_rtos\joystick.o: ../Core/Inc/tim.h
 yaobicar_v3_rtos\joystick.o: ../Core/Inc/main.h
 yaobicar_v3_rtos\joystick.o: ../Core/Inc/usart.h
+yaobicar_v3_rtos\joystick.o: ../Fashion_Star/ring_buffer.h
+yaobicar_v3_rtos\joystick.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+yaobicar_v3_rtos\joystick.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+yaobicar_v3_rtos\joystick.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 yaobicar_v3_rtos\joystick.o: ..\HandWare\RudderDesk.h
 yaobicar_v3_rtos\joystick.o: ..\HandWare\YBCar_PID.h
 yaobicar_v3_rtos\joystick.o: ..\HandWare\YBCar_CAN.h
 yaobicar_v3_rtos\joystick.o: ../Core/Inc/can.h
+yaobicar_v3_rtos\joystick.o: ../Fashion_Star/fashion_star_uart_servo.h
+yaobicar_v3_rtos\joystick.o: ../Fashion_Star/Tick.h
+yaobicar_v3_rtos\joystick.o: ../Fashion_Star/fashion_star_uart_servo.h

@@ -2,6 +2,7 @@
 #define __RING_BUFFER_H
 
 #include "stm32f4xx.h"                  // Device header
+
 #include<stdio.h>
 #include <string.h>
 #include <stdlib.h>

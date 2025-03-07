@@ -47,9 +47,12 @@ yaobicar_v3_rtos\main.o: ../Core/Inc/can.h
 yaobicar_v3_rtos\main.o: ../Core/Inc/dma.h
 yaobicar_v3_rtos\main.o: ../Core/Inc/tim.h
 yaobicar_v3_rtos\main.o: ../Core/Inc/usart.h
+yaobicar_v3_rtos\main.o: ../Fashion_Star/ring_buffer.h
+yaobicar_v3_rtos\main.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+yaobicar_v3_rtos\main.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+yaobicar_v3_rtos\main.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 yaobicar_v3_rtos\main.o: ../Core/Inc/gpio.h
 yaobicar_v3_rtos\main.o: ../HandWare/Variable.h
 yaobicar_v3_rtos\main.o: ../HandWare/RudderDesk.h
 yaobicar_v3_rtos\main.o: ../HandWare/YBCar_PID.h
 yaobicar_v3_rtos\main.o: ../HandWare/YBCar_CAN.h
-yaobicar_v3_rtos\main.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

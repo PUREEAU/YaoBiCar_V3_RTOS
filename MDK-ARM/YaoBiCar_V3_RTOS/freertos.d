@@ -46,9 +46,12 @@ yaobicar_v3_rtos\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RT
 yaobicar_v3_rtos\freertos.o: ../HandWare/Variable.h
 yaobicar_v3_rtos\freertos.o: ../Core/Inc/tim.h
 yaobicar_v3_rtos\freertos.o: ../Core/Inc/usart.h
+yaobicar_v3_rtos\freertos.o: ../Fashion_Star/ring_buffer.h
+yaobicar_v3_rtos\freertos.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+yaobicar_v3_rtos\freertos.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+yaobicar_v3_rtos\freertos.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 yaobicar_v3_rtos\freertos.o: ../HandWare/RudderDesk.h
 yaobicar_v3_rtos\freertos.o: ../HandWare/YBCar_PID.h
 yaobicar_v3_rtos\freertos.o: ../HandWare/YBCar_CAN.h
 yaobicar_v3_rtos\freertos.o: ../Core/Inc/can.h
 yaobicar_v3_rtos\freertos.o: ../HandWare/JoyStick.h
-yaobicar_v3_rtos\freertos.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

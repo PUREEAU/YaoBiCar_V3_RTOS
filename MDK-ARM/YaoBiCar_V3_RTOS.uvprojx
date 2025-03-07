@@ -756,6 +756,38 @@
         </Group>
         <Group>
           <GroupName>Fashion_Star</GroupName>
+          <Files>
+            <File>
+              <FileName>Tick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Fashion_Star\Tick.c</FilePath>
+            </File>
+            <File>
+              <FileName>Tick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Fashion_Star\Tick.h</FilePath>
+            </File>
+            <File>
+              <FileName>fashion_star_uart_servo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Fashion_Star\fashion_star_uart_servo.c</FilePath>
+            </File>
+            <File>
+              <FileName>fashion_star_uart_servo.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Fashion_Star\fashion_star_uart_servo.h</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Fashion_Star\ring_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>ring_buffer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Fashion_Star\ring_buffer.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>HandWare</GroupName>

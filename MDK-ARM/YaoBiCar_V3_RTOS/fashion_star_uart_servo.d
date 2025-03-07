@@ -31,3 +31,14 @@ yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/
 yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Core/Inc/usart.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Core/Inc/main.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Fashion_Star/ring_buffer.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\string.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ..\Fashion_Star\Tick.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ..\Fashion_Star\fashion_star_uart_servo.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: ../Core/Inc/tim.h
+yaobicar_v3_rtos\fashion_star_uart_servo.o: D:\KEIL_MDK\MDK_ARM\keil_v5\ARM\ARMCC\Bin\..\include\math.h

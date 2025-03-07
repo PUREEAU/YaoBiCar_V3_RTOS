@@ -59,6 +59,7 @@ void CAN1_RX0_IRQHandler(void);
 void TIM1_UP_TIM10_IRQHandler(void);
 void TIM3_IRQHandler(void);
 void TIM4_IRQHandler(void);
+void TIM8_BRK_TIM12_IRQHandler(void);
 void TIM8_TRG_COM_TIM14_IRQHandler(void);
 void CAN2_RX0_IRQHandler(void);
 void UART7_IRQHandler(void);
